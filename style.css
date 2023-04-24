@@ -1,4 +1,4 @@
-ul {
+.headul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,11 +6,11 @@ ul {
     background-color: #4B9CD3;
 }
 
-li {
+.headli {
     float: left;
 }
   
-li a {
+.heada {
     display: block;
     color: white;
     text-align: center;
@@ -41,5 +41,35 @@ h1 {
 .carolina {
     background-color: #4B9CD3;
 }
+
+.cardRow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   flex-wrap: wrap;
+ }
+
+ .clusterCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.card, .clusterCard {
+  width: 300px;
+  border: 1px solid black;
+  min-height: 400px;
+  padding: 20px;
+}
+
+.space {
+    border-bottom: 1px solid slategray;
+    padding: 20px 0px;
+}
+  
+section:last-child {
+    border: none;
+}
+
 
   
