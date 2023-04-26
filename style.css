@@ -86,6 +86,10 @@ li a:hover {
     padding: 30px 0px;
 }
 
+.topBorder {
+    border-top: 1px solid slategray;
+    padding: 20px 0px;
+}
 section:last-child {
     border: none;
 }
