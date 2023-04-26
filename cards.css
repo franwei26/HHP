@@ -1,0 +1,36 @@
+.cardRow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   flex-wrap: wrap;
+ }
+
+ .clusterCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.card, .clusterCard {
+  width: 300px;
+  border: 1px solid black;
+  min-height: 400px;
+  padding: 20px;
+}
+
+div {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  div h3:only-child {
+    padding-left: 20px;
+  }
+  
+  /* button {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+  } */
+
